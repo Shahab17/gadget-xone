@@ -49,6 +49,7 @@ nav{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 3rem;
 }
 .header-content h2{
     color: var(--primary-color); 
@@ -74,5 +75,27 @@ nav{
 @media screen and (max-width: 576px) {
     nav, .lists{
         flex-direction: column;
+    }
+    .header-container{
+        flex-direction: column-reverse;
+    }
+    .header-img img{
+        width: 100%;
+    }
+    .header-content{
+        text-align: center;
+    }
+    .header-content p{
+        font-size: 14px;
+    }
+    .header-content h2{
+        font-size: 2rem;
+    }
+}
+
+/* medium screen */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .header-container{
+        padding: 2rem;
     }
 }
