@@ -50,7 +50,7 @@ nav{
     justify-content: space-evenly;
     align-items: center;
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 .header-content h2{
     color: var(--primary-color); 
@@ -69,13 +69,19 @@ nav{
     background-position: center;
 }
 /* logos related styles */
+
 .logos{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
     gap: 20px;
+    height: 150px;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px gray;
+    padding: 30px;
+    background-color: rgba(250, 235, 215, 0.562);
 }
 .logos img{
     width: 70%;     
@@ -197,11 +203,12 @@ font-weight: 500;
     }
     .logos{
         flex-wrap: wrap;
-        justify-content: space-evenly;
-        gap: 18px;
+        justify-content: space-between;
+        gap: 18px; 
+        /* padding-bottom: 30px; */
     }
     .logos img{
-       width: 90%;
+       width: 60%;
     }
     .item-container{
         grid-template-columns: 1fr;
