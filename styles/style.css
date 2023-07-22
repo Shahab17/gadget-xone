@@ -122,12 +122,32 @@ nav{
 .item-details p{
     color: #787885; 
     font-size: 14px;
-    font-weight: 700;
-    
+    font-weight: 700;   
 }
- 
 .checked{
-    color: orange;
+    color: orange; 
+}
+/* features product related styles */
+.features-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+}
+.feature-content h2{
+    color: #0A0826;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+}
+.feature-content p{
+    width: 500px;
+    color: #6C6C6C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
    
 }
 
