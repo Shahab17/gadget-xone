@@ -50,6 +50,7 @@ nav{
     justify-content: space-evenly;
     align-items: center;
     margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 .header-content h2{
     color: var(--primary-color); 
@@ -66,6 +67,18 @@ nav{
 .header-img img{
     background-image: url("../images/Circle\ design.svg");
     background-position: center;
+}
+/* logos related styles */
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    gap: 20px;
+}
+.logos img{
+    width: 70%;     
 }
 
 
@@ -90,6 +103,15 @@ nav{
     }
     .header-content h2{
         font-size: 2rem;
+    }
+    .logos{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 18px;
+    }
+    .logos img{
+       width: 90%;
+     
     }
 }
 
