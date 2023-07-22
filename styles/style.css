@@ -149,6 +149,27 @@ nav{
     font-size: 16px;
     font-weight: 600; 
 }
+/* footer related styles */
+.footer{
+    height: 250px;
+    background: #0A0826;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+.footer h2{
+font-family: monospace;
+font-size: 24px;
+font-weight: 500;
+}
+.copyright{
+    font-family: monospace;
+}
+.footer-icons img{
+    margin-top: 20px;
+    margin-right: 20px;
+    cursor:grab;
+}
  
 
 
